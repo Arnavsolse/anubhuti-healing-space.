@@ -2995,25 +2995,25 @@
     <h2 class="section-title fade-up" style="text-align:center;">Start Your Journey Today</h2>
     <p class="section-desc fade-up fade-up-delay-1" style="text-align:center;margin-left:auto;margin-right:auto;">Fill in your details and we'll get back to you within 24 hours to confirm your session.</p>
     <div class="fade-up" style="max-width:660px;margin:0 auto;">
-      <div class="booking-card" style="background:var(--white);border-radius:28px;padding:40px;border:1px solid rgba(163,155,178,0.15);box-shadow:0 8px 40px rgba(0,0,0,0.07);">
+      <div id="bookingForm" class="booking-card" style="background:var(--white);border-radius:28px;padding:40px;border:1px solid rgba(163,155,178,0.15);box-shadow:0 8px 40px rgba(0,0,0,0.07);">
         <div class="booking-form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;">
           <div>
             <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Your Name *</label>
-            <input type="text" placeholder="e.g. Priya Sharma" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+            <input id="bName" type="text" placeholder="e.g. Priya Sharma" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
           </div>
           <div>
             <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Phone / WhatsApp *</label>
-            <input type="tel" placeholder="+91 90110 62197" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+            <input id="bPhone" type="tel" placeholder="+91 90110 62197" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
           </div>
         </div>
         <div style="margin-bottom:18px;">
           <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Email Address</label>
-          <input type="email" placeholder="yourname@email.com" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+          <input id="bEmail" type="email" placeholder="yourname@email.com" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
         </div>
         <div class="booking-form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;">
           <div>
             <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Service Interested In *</label>
-            <select style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+            <select id="bService" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
               <option value="" disabled selected>Select a service…</option>
               <option>Individual Therapy</option>
               <option>Child / Teen Therapy</option>
@@ -3026,7 +3026,7 @@
           </div>
           <div>
             <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Preferred Time</label>
-            <select style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+            <select id="bTime" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
               <option value="" disabled selected>Anytime</option>
               <option>Morning (9am – 12pm)</option>
               <option>Afternoon (12pm – 4pm)</option>
@@ -3036,7 +3036,7 @@
         </div>
         <div style="margin-bottom:24px;">
           <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Tell us a little about what you're looking for</label>
-          <textarea rows="3" placeholder="Feel free to share as much or as little as you like…" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;resize:vertical;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'"></textarea>
+          <textarea id="bMessage" rows="3" placeholder="Feel free to share as much or as little as you like…" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;resize:vertical;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'"></textarea>
         </div>
         <button onclick="handleBookingSubmit(this)" style="width:100%;padding:15px;background:linear-gradient(135deg,var(--teal),#3d6b70);color:var(--white);border:none;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(84,127,132,0.35);" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(84,127,132,0.45)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(84,127,132,0.35)'">
           💬 Send Booking Request
@@ -3048,20 +3048,42 @@
 
   <script>
     function handleBookingSubmit(btn) {
-      const form = btn.closest('div');
-      const name = form.querySelector('input[type="text"]').value.trim();
-      const phone = form.querySelector('input[type="tel"]').value.trim();
-      const service = form.querySelector('select').value;
+      if (btn.disabled) return;
+
+      const name    = document.getElementById('bName').value.trim();
+      const phone   = document.getElementById('bPhone').value.trim();
+      const email   = document.getElementById('bEmail').value.trim();
+      const service = document.getElementById('bService').value;
+      const time    = document.getElementById('bTime').value;
+      const message = document.getElementById('bMessage').value.trim();
+
       if (!name || !phone || !service) {
-        btn.textContent = '⚠️ Please fill required fields';
+        btn.textContent = '⚠️ Please fill Name, Phone & Service';
         btn.style.background = 'linear-gradient(135deg,#e87a3d,#d4622a)';
-        setTimeout(() => { btn.textContent = '💬 Send Booking Request'; btn.style.background = 'linear-gradient(135deg,var(--teal),#3d6b70)'; }, 2000);
+        setTimeout(() => {
+          btn.textContent = '💬 Send Booking Request';
+          btn.style.background = 'linear-gradient(135deg,var(--teal),#3d6b70)';
+        }, 2500);
         return;
       }
-      const msg = encodeURIComponent(`Hi! I'd like to book a session.\nName: ${name}\nPhone: ${phone}\nService: ${service}`);
-      window.open(`https://wa.me/918766709104?text=${msg}`, '_blank');
-      btn.textContent = '✅ Redirecting to WhatsApp…';
+
+      btn.disabled = true;
+
+      let text = `Hi! I'd like to book a session.\n\nName: ${name}\nPhone: ${phone}`;
+      if (email)   text += `\nEmail: ${email}`;
+      text += `\nService: ${service}`;
+      if (time && time !== '')    text += `\nPreferred Time: ${time}`;
+      if (message) text += `\n\nAbout me: ${message}`;
+
+      window.open(`https://wa.me/918766709104?text=${encodeURIComponent(text)}`, '_blank');
+      btn.textContent = '✅ Sent! Opening WhatsApp…';
       btn.style.background = 'linear-gradient(135deg,#4caf82,#2e8b57)';
+
+      setTimeout(() => {
+        btn.textContent = '💬 Send Booking Request';
+        btn.style.background = 'linear-gradient(135deg,var(--teal),#3d6b70)';
+        btn.disabled = false;
+      }, 5000);
     }
   </script>
 
