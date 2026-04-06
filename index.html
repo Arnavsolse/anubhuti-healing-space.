@@ -49,7 +49,7 @@
       cursor: none;
     }
 
-    /* ─── CUSTOM CURSOR ─── */
+    /*  CUSTOM CURSOR  */
     .cursor-dot {
       width: 8px;
       height: 8px;
@@ -86,7 +86,7 @@
       opacity: 1;
     }
 
-    /* ─── SCROLLBAR ─── */
+    /*  SCROLLBAR  */
     ::-webkit-scrollbar {
       width: 6px;
     }
@@ -100,7 +100,7 @@
       border-radius: 3px;
     }
 
-    /* ─── NAV ─── */
+    /*  NAV  */
     nav {
       position: fixed;
       top: 0;
@@ -250,7 +250,7 @@
       transition: transform 0.3s, opacity 0.3s;
     }
 
-    /* ─── HERO ─── */
+    /*  HERO  */
     .hero {
       min-height: 100vh;
       padding: 120px 5% 80px;
@@ -598,7 +598,7 @@
       color: var(--text-light);
     }
 
-    /* ─── TRUST BAR ─── */
+    /*  TRUST BAR  */
     .trust-bar {
       background: var(--teal);
       padding: 18px 5%;
@@ -623,7 +623,7 @@
       font-size: 1.1rem;
     }
 
-    /* ─── SECTION COMMONS ─── */
+    /*  SECTION COMMONS  */
     section {
       padding: 60px 5%;
     }
@@ -667,7 +667,7 @@
       margin-bottom: 1.5rem;
     }
 
-    /* ─── BENTO SERVICES ─── */
+    /*  BENTO SERVICES  */
     .services-grid {
       display: grid;
       grid-template-columns: 1.6fr 1fr 1fr;
@@ -787,7 +787,7 @@
     }
 
     .svc-features li::before {
-      content: '✦';
+      content: '';
       color: var(--lotus);
       flex-shrink: 0;
       font-size: 0.7rem;
@@ -831,7 +831,7 @@
       opacity: 0.08;
     }
 
-    /* ─── PROCESS SECTION ─── */
+    /*  PROCESS SECTION  */
     .process {
       background: linear-gradient(180deg, var(--bg) 0%, rgba(84, 127, 132, 0.04) 100%);
     }
@@ -925,7 +925,7 @@
       line-height: 1.6;
     }
 
-    /* ─── GALLERY ─── */
+    /*  GALLERY  */
     .gallery {
       background: var(--bg);
       padding-top: 80px;
@@ -1060,7 +1060,7 @@
       border-radius: 40% 30% 40% 30% / 30% 40% 30% 40%;
     }
 
-    /* ─── TESTIMONIALS ─── */
+    /*  TESTIMONIALS  */
     .testimonials {
       background: linear-gradient(135deg, rgba(84, 127, 132, 0.04), rgba(167, 128, 199, 0.04));
     }
@@ -1145,7 +1145,7 @@
       color: var(--text-light);
     }
 
-    /* ─── FOUNDERS ─── */
+    /*  FOUNDERS  */
     .founders-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1270,7 +1270,7 @@
       color: var(--white);
     }
 
-    /* ─── CTA BAND ─── */
+    /*  CTA BAND  */
     .cta-band {
       background: linear-gradient(135deg, var(--teal) 0%, #3D6B70 100%);
       padding: 80px 5%;
@@ -1360,7 +1360,7 @@
       background: rgba(249, 247, 247, 0.1);
     }
 
-    /* ─── FOOTER ─── */
+    /*  FOOTER  */
     footer {
       background: var(--teal);
       color: var(--bg);
@@ -1500,7 +1500,7 @@
       color: rgba(249, 247, 247, 0.75);
     }
 
-    /* ─── WHATSAPP FLOAT ─── */
+    /*  WHATSAPP FLOAT  */
     .wa-float {
       position: fixed;
       bottom: 28px;
@@ -1566,7 +1566,7 @@
       }
     }
 
-    /* ─── ANIMATIONS ─── */
+    /*  ANIMATIONS  */
     @keyframes fadeUp {
       from {
         opacity: 0;
@@ -1606,7 +1606,7 @@
       transition-delay: 0.4s;
     }
 
-    /* ─── RESPONSIVE ─── */
+    /*  RESPONSIVE  */
     @media (max-width: 1024px) {
       .services-grid {
         grid-template-columns: 1fr 1fr;
@@ -1718,7 +1718,7 @@
       .founder-bio { font-size: 0.85rem; }
     }
 
-    /* ─── MOBILE UTILITY OVERRIDES ─── */
+    /*  MOBILE UTILITY OVERRIDES  */
     @media (max-width: 600px) {
       /* Booking form card padding */
       .booking-card { padding: 24px 16px !important; }
@@ -1737,7 +1737,7 @@
       img, video, iframe { max-width: 100%; }
     }
 
-    /* ─── DECORATIVE SVGs ─── */
+    /*  DECORATIVE SVGs  */
     .deco-dots {
       position: absolute;
       pointer-events: none;
@@ -1750,9 +1750,9 @@
     }
 
 
-    /* ════════════════════════════════════════
+    /* 
      INTRO / PRELOADER
-  ════════════════════════════════════════ */
+   */
     #intro-overlay {
       position: fixed;
       inset: 0;
@@ -1943,9 +1943,9 @@
       }
     }
 
-    /* ════════════════════════════════════════
+    /* 
      ENHANCED ANIMATIONS
-  ════════════════════════════════════════ */
+   */
 
     /* Parallax tilt on cards */
     .svc-card,
@@ -2237,9 +2237,9 @@
       }
     }
 
-    /* ════════════════════════════════════════
+    /* 
        MOBILE-FIRST ENHANCEMENTS
-    ════════════════════════════════════════ */
+     */
 
     /* Prevent horizontal overflow globally */
     html, body {
@@ -2263,7 +2263,7 @@
       .svc-card, .testimonial-card, .founder-card { transform-style: flat !important; }
     }
 
-    /* ─── NAV IMPROVEMENTS ─── */
+    /*  NAV IMPROVEMENTS  */
     @media (max-width: 768px) {
       nav { padding: 10px 4%; }
 
@@ -2312,7 +2312,7 @@
       .nav-hamburger { display: flex; cursor: pointer; }
     }
 
-    /* ─── HERO MOBILE ─── */
+    /*  HERO MOBILE  */
     @media (max-width: 768px) {
       .hero {
         grid-template-columns: 1fr;
@@ -2351,13 +2351,13 @@
       .hero-stats { gap: 1rem; }
     }
 
-    /* ─── TRUST BAR ─── */
+    /*  TRUST BAR  */
     @media (max-width: 600px) {
       .trust-bar-inner { gap: 2rem; }
       .trust-item { font-size: 0.8rem; gap: 8px; }
     }
 
-    /* ─── SERVICES / BENTO GRID ─── */
+    /*  SERVICES / BENTO GRID  */
     @media (max-width: 1024px) {
       .services-grid {
         grid-template-columns: 1fr 1fr;
@@ -2381,7 +2381,7 @@
       .svc-icon { font-size: 2.2rem; }
     }
 
-    /* ─── PROCESS STEPS ─── */
+    /*  PROCESS STEPS  */
     @media (max-width: 900px) {
       .process-steps {
         grid-template-columns: repeat(3, 1fr);
@@ -2400,7 +2400,7 @@
       .process-steps { grid-template-columns: 1fr; }
     }
 
-    /* ─── GALLERY MOBILE ─── */
+    /*  GALLERY MOBILE  */
     @media (max-width: 600px) {
       .gallery-item { width: 220px; height: 160px; }
       .gallery-track { padding: 16px 30px; gap: 16px; }
@@ -2408,7 +2408,7 @@
       .gallery-track-wrap::after { width: 60px; }
     }
 
-    /* ─── TESTIMONIALS ─── */
+    /*  TESTIMONIALS  */
     @media (max-width: 900px) {
       .testimonials-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
       .testimonials-grid .testimonial-card:last-child { grid-column: span 2; }
@@ -2419,7 +2419,7 @@
       .testimonial-card { padding: 24px 20px; }
     }
 
-    /* ─── FOUNDERS ─── */
+    /*  FOUNDERS  */
     @media (max-width: 900px) {
       .founders-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
     }
@@ -2432,7 +2432,7 @@
       .founders-grid { max-width: 100%; }
     }
 
-    /* ─── CTA BAND ─── */
+    /*  CTA BAND  */
     @media (max-width: 600px) {
       .cta-band { padding: 60px 4%; }
       .cta-band-btns { flex-direction: column; align-items: stretch; gap: 12px; }
@@ -2443,7 +2443,7 @@
       }
     }
 
-    /* ─── FOOTER ─── */
+    /*  FOOTER  */
     @media (max-width: 900px) {
       .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
     }
@@ -2454,7 +2454,7 @@
       .footer-bottom p { font-size: 0.78rem; }
     }
 
-    /* ─── BOOKING / INLINE GRID SECTIONS ─── */
+    /*  BOOKING / INLINE GRID SECTIONS  */
     @media (max-width: 600px) {
       /* Inline collab grids */
       [style*="grid-template-columns:repeat(4"] {
@@ -2478,7 +2478,7 @@
       }
     }
 
-    /* ─── SECTION SPACING ─── */
+    /*  SECTION SPACING  */
     @media (max-width: 768px) {
       section { padding: 52px 4%; }
     }
@@ -2486,7 +2486,7 @@
       section { padding: 40px 4%; }
     }
 
-    /* ─── SECTION TITLES ─── */
+    /*  SECTION TITLES  */
     @media (max-width: 768px) {
       .section-title { font-size: clamp(1.6rem, 6vw, 2.4rem); }
       .section-desc { font-size: 0.93rem; }
@@ -2495,25 +2495,25 @@
       .section-title { font-size: clamp(1.4rem, 7.5vw, 2rem); }
     }
 
-    /* ─── WHATSAPP FLOAT ─── */
+    /*  WHATSAPP FLOAT  */
     @media (max-width: 480px) {
       .wa-float { bottom: 72px; right: 14px; }
       .wa-btn { width: 50px; height: 50px; font-size: 1.4rem; }
       .wa-tooltip { font-size: 0.75rem; padding: 8px 12px; }
     }
 
-    /* ─── IMAGES & MEDIA ─── */
+    /*  IMAGES & MEDIA  */
     img, video, iframe, svg {
       max-width: 100%;
       height: auto;
     }
 
-    /* ─── SCROLLBAR ─── */
+    /*  SCROLLBAR  */
     @media (max-width: 768px) {
       ::-webkit-scrollbar { width: 0px; }
     }
 
-    /* ─── INTRO OVERLAY MOBILE ─── */
+    /*  INTRO OVERLAY MOBILE  */
     @media (max-width: 480px) {
       .intro-bg-ring:nth-child(3) { width: 340px; height: 340px; }
       .intro-bg-ring:nth-child(4) { width: 480px; height: 480px; }
@@ -2522,7 +2522,7 @@
       .intro-tagline { font-size: 0.88rem; text-align: center; padding: 0 1rem; }
     }
 
-    /* ─── FIX: Prevent broken inline grids on small screens ─── */
+    /*  FIX: Prevent broken inline grids on small screens  */
     @media (max-width: 500px) {
       /* Support section areas with inline grid styles */
       div[style*="grid-template-columns"] {
@@ -2538,11 +2538,11 @@
       }
     }
 
-    /* ═══════════════════════════════════════════════════════
+    /* 
        COMPREHENSIVE MOBILE FIX — Full Mobile-First Overhaul
-    ═══════════════════════════════════════════════════════ */
+     */
 
-    /* ── 1. NAV: hamburger menu fully visible + Book a Session ── */
+    /*  1. NAV: hamburger menu fully visible + Book a Session  */
     @media (max-width: 768px) {
       nav {
         padding: 10px 4%;
@@ -2612,7 +2612,7 @@
       }
     }
 
-    /* ── 2. HERO: proper mobile layout ── */
+    /*  2. HERO: proper mobile layout  */
     @media (max-width: 768px) {
       .hero {
         min-height: auto !important;
@@ -2645,13 +2645,13 @@
       .hero-stat .num { font-size: 1.7rem !important; }
     }
 
-    /* ── 3. TRUST BAR: scrollable marquee on mobile ── */
+    /*  3. TRUST BAR: scrollable marquee on mobile  */
     @media (max-width: 480px) {
       .trust-bar-inner { gap: 1.6rem; }
       .trust-item { font-size: 0.78rem; white-space: nowrap; }
     }
 
-    /* ── 4. SERVICES BENTO: single column on mobile ── */
+    /*  4. SERVICES BENTO: single column on mobile  */
     @media (max-width: 640px) {
       .services-grid {
         display: flex !important;
@@ -2669,7 +2669,7 @@
       .svc-badge { font-size: 0.68rem !important; }
     }
 
-    /* ── 5. HOW IT WORKS: 2-column on small, 1 on very small ── */
+    /*  5. HOW IT WORKS: 2-column on small, 1 on very small  */
     @media (max-width: 600px) {
       .process-steps {
         grid-template-columns: 1fr 1fr !important;
@@ -2684,14 +2684,14 @@
       .process-steps { grid-template-columns: 1fr !important; }
     }
 
-    /* ── 6. GALLERY: smaller items on mobile ── */
+    /*  6. GALLERY: smaller items on mobile  */
     @media (max-width: 600px) {
       .gallery { padding-top: 48px !important; padding-bottom: 48px !important; }
       .gallery-item { width: 200px !important; height: 150px !important; }
       .gallery-track { gap: 14px !important; padding: 12px 24px !important; }
     }
 
-    /* ── 7. TESTIMONIALS: single column ── */
+    /*  7. TESTIMONIALS: single column  */
     @media (max-width: 640px) {
       .testimonials-grid {
         grid-template-columns: 1fr !important;
@@ -2704,7 +2704,7 @@
       .testimonial-text { font-size: 0.9rem !important; }
     }
 
-    /* ── 8. ABOUT US / FOUNDERS ── */
+    /*  8. ABOUT US / FOUNDERS  */
     @media (max-width: 768px) {
       .founders-grid {
         grid-template-columns: 1fr !important;
@@ -2718,7 +2718,7 @@
       .cred-tag { font-size: 0.68rem !important; padding: 4px 10px !important; }
     }
 
-    /* ── 9. BOOKING / COLLABORATE sections inline grids ── */
+    /*  9. BOOKING / COLLABORATE sections inline grids  */
     @media (max-width: 600px) {
       /* Force all inline grid containers to stack */
       [style*="display:grid"], [style*="display: grid"] {
@@ -2749,7 +2749,7 @@
       textarea { min-height: 100px !important; }
     }
 
-    /* ── 10. CTA BAND ── */
+    /*  10. CTA BAND  */
     @media (max-width: 600px) {
       .cta-band { padding: 52px 4% !important; }
       .cta-band-title { font-size: clamp(1.5rem, 6vw, 2rem) !important; }
@@ -2765,7 +2765,7 @@
       }
     }
 
-    /* ── 11. FOOTER ── */
+    /*  11. FOOTER  */
     @media (max-width: 600px) {
       footer { padding: 48px 4% 100px !important; }
       .footer-top {
@@ -2780,7 +2780,7 @@
       .footer-bottom p { font-size: 0.78rem !important; }
     }
 
-    /* ── 12. SECTION SPACING ── */
+    /*  12. SECTION SPACING  */
     @media (max-width: 768px) {
       section { padding: 48px 4% !important; }
       .section-title { font-size: clamp(1.6rem, 5.5vw, 2.2rem) !important; }
@@ -2791,7 +2791,7 @@
       .section-title { font-size: clamp(1.4rem, 7vw, 1.9rem) !important; }
     }
 
-    /* ── 13. MOBILE STICKY BAR: always visible, clear of content ── */
+    /*  13. MOBILE STICKY BAR: always visible, clear of content  */
     .mobile-sticky-cta {
       display: none;
     }
@@ -2835,14 +2835,14 @@
       footer { padding-bottom: 80px !important; }
     }
 
-    /* ── 14. WHATSAPP BUTTON: above sticky bar ── */
+    /*  14. WHATSAPP BUTTON: above sticky bar  */
     @media (max-width: 768px) {
       .wa-float { bottom: 76px !important; right: 14px !important; }
       .wa-btn { width: 50px !important; height: 50px !important; font-size: 1.3rem !important; }
       .wa-tooltip { display: none !important; }
     }
 
-    /* ── 15. PREVENT HORIZONTAL OVERFLOW ── */
+    /*  15. PREVENT HORIZONTAL OVERFLOW  */
     html, body {
       overflow-x: hidden !important;
       max-width: 100vw !important;
@@ -2850,14 +2850,14 @@
     * { box-sizing: border-box !important; }
     img, video, iframe, svg, embed { max-width: 100% !important; height: auto !important; }
 
-    /* ── 16. TOUCH: disable custom cursor, enable pointer ── */
+    /*  16. TOUCH: disable custom cursor, enable pointer  */
     @media (hover: none) and (pointer: coarse) {
       body { cursor: auto !important; }
       .cursor-dot, .cursor-ring { display: none !important; }
       a, button { cursor: pointer !important; }
     }
 
-    /* ── 17. STORY CARDS full width on mobile ── */
+    /*  17. STORY CARDS full width on mobile  */
     @media (max-width: 640px) {
       .testimonial-card {
         min-width: 0 !important;
@@ -2865,12 +2865,12 @@
       }
     }
 
-    /* ── 18. SECTION EYEBROW: wrap on narrow screens ── */
+    /*  18. SECTION EYEBROW: wrap on narrow screens  */
     @media (max-width: 400px) {
       .section-eyebrow { flex-wrap: wrap; font-size: 0.68rem; }
     }
 
-    /* ── 19. Collaborate / partner grids ── */
+    /*  19. Collaborate / partner grids  */
     @media (max-width: 600px) {
       .collab-partners-4,
       .collab-partners-3 {
@@ -2880,7 +2880,7 @@
       }
     }
 
-    /* ── 20. iOS input font-size fix (prevent zoom) ── */
+    /*  20. iOS input font-size fix (prevent zoom)  */
     @media (max-width: 768px) {
       input[type="text"],
       input[type="email"],
@@ -2898,7 +2898,7 @@
 
   <!-- Custom cursor -->
 
-  <!-- ═══════════════ INTRO OVERLAY ═══════════════ -->
+  <!--  INTRO OVERLAY  -->
   <div id="intro-overlay">
     <div class="intro-bg-ring"></div>
     <div class="intro-bg-ring"></div>
@@ -2921,7 +2921,7 @@
   <div class="cursor-dot" id="cursorDot"></div>
   <div class="cursor-ring" id="cursorRing"></div>
 
-  <!-- ─── NAVIGATION ─── -->
+  <!--  NAVIGATION  -->
   <nav id="mainNav">
     <a href="#" class="nav-logo">
       <div class="nav-logo-icon" style="padding:0;overflow:hidden;"><img
@@ -2944,7 +2944,7 @@
     </button>
   </nav>
 
-  <!-- ─── HERO ─── -->
+  <!--  HERO  -->
   <section class="hero" id="home">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
@@ -2993,13 +2993,13 @@
         Nurturing resilience through psychology and art — for Pune's families, children, and future therapists.
       </p>
       <div class="hero-ctas">
-        <a href="#services" class="btn-primary">✦ Enroll in Internship</a>
-        <a href="#services" class="btn-outline">Explore Workshops →</a>
+        <a href="#services" class="btn-primary"> Enroll in Internship</a>
+        <a href="#services" class="btn-outline">Explore Workshops </a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat"><span class="num">200+</span><span class="label">Families Served</span></div>
         <div class="hero-stat"><span class="num">50+</span><span class="label">Student Interns</span></div>
-        <div class="hero-stat"><span class="num">5★</span><span class="label">Community Trust</span></div>
+        <div class="hero-stat"><span class="num">5</span><span class="label">Community Trust</span></div>
       </div>
     </div>
 
@@ -3007,19 +3007,19 @@
       <div class="hero-visual-card">
         <div class="therapy-art-grid">
           <div class="therapy-art-item art-1">
-            <span>🎨</span>
+            <span></span>
             <span class="art-label">Art Therapy</span>
           </div>
           <div class="therapy-art-item art-2">
-            <span>💃</span>
+            <span></span>
             <span class="art-label">Dance Movement</span>
           </div>
           <div class="therapy-art-item art-3">
-            <span>📖</span>
+            <span></span>
             <span class="art-label">Narrative Therapy</span>
           </div>
           <div class="therapy-art-item art-4">
-            <span>🧒</span>
+            <span></span>
             <span class="art-label">Child-Parent</span>
           </div>
         </div>
@@ -3030,7 +3030,7 @@
             style="width:80px;height:80px;object-fit:contain;border-radius:50%;border:2px solid rgba(163,155,178,0.2);">
         </div>
         <div class="hero-card-badge">
-          <span class="badge-icon">🏅</span>
+          <span class="badge-icon"></span>
           <div class="badge-text">
             <strong>Project Parvarish Affiliated</strong>
             <span>M.A. Clinical Psychology Certified</span>
@@ -3040,23 +3040,23 @@
     </div>
   </section>
 
-  <!-- ─── TRUST BAR ─── -->
+  <!--  TRUST BAR  -->
   <div class="trust-bar">
     <div class="trust-bar-inner">
-      <div class="trust-item"><span class="ti-icon">🎓</span> Fergusson University Alumni Network</div>
-      <div class="trust-item"><span class="ti-icon">🏛️</span> Vishwakarma University Partners</div>
-      <div class="trust-item"><span class="ti-icon">📍</span> Based in Baner, Pune</div>
-      <div class="trust-item"><span class="ti-icon">🤝</span> Project Parvarish Collaboration</div>
-      <div class="trust-item"><span class="ti-icon">✅</span> MA Clinical Psychology Certified</div>
-      <div class="trust-item"><span class="ti-icon">🎓</span> Fergusson University Alumni Network</div>
-      <div class="trust-item"><span class="ti-icon">🏛️</span> Vishwakarma University Partners</div>
-      <div class="trust-item"><span class="ti-icon">📍</span> Based in Baner, Pune</div>
-      <div class="trust-item"><span class="ti-icon">🤝</span> Project Parvarish Collaboration</div>
-      <div class="trust-item"><span class="ti-icon">✅</span> MA Clinical Psychology Certified</div>
+      <div class="trust-item"><span class="ti-icon"></span> Fergusson University Alumni Network</div>
+      <div class="trust-item"><span class="ti-icon"></span> Vishwakarma University Partners</div>
+      <div class="trust-item"><span class="ti-icon"></span> Based in Erandwane, Pune</div>
+      <div class="trust-item"><span class="ti-icon"></span> Project Parvarish Collaboration</div>
+      <div class="trust-item"><span class="ti-icon"></span> MA Clinical Psychology Certified</div>
+      <div class="trust-item"><span class="ti-icon"></span> Fergusson University Alumni Network</div>
+      <div class="trust-item"><span class="ti-icon"></span> Vishwakarma University Partners</div>
+      <div class="trust-item"><span class="ti-icon"></span> Based in Erandwane, Pune</div>
+      <div class="trust-item"><span class="ti-icon"></span> Project Parvarish Collaboration</div>
+      <div class="trust-item"><span class="ti-icon"></span> MA Clinical Psychology Certified</div>
     </div>
   </div>
 
-  <!-- ─── SERVICES ─── -->
+  <!--  SERVICES  -->
   <section id="services">
     <div class="section-eyebrow">What We Offer</div>
     <div
@@ -3069,8 +3069,8 @@
     <div class="services-grid fade-up">
       <!-- Card 1: Counselling & Therapy -->
       <div class="svc-card svc-card-1">
-        <div class="svc-badge">✦ Booking Open</div>
-        <span class="svc-icon">🌿</span>
+        <div class="svc-badge"> Booking Open</div>
+        <span class="svc-icon"></span>
         <h3 class="svc-card-title">Counselling &amp; Therapy Session</h3>
         <p class="svc-card-desc">Professional, compassionate one-on-one support tailored to your unique needs in a safe
           and confidential space.</p>
@@ -3080,53 +3080,53 @@
           <li>Sliding scale available for students</li>
           <li>Secure online payment options</li>
         </ul>
-        <a href="#book" class="svc-link">Book Now ✦</a>
+        <a href="#book" class="svc-link">Book Now </a>
         <div class="svc-card-bg-decor"></div>
       </div>
 
       <!-- Card 2: Parent-Child Workshops -->
       <div class="svc-card svc-card-2 fade-up fade-up-delay-1">
-        <span class="svc-icon" style="animation-delay:0.5s">👨‍👩‍👧</span>
+        <span class="svc-icon" style="animation-delay:0.5s">‍‍</span>
         <h3 class="svc-card-title" style="color:var(--teal)">Parent–Child Bonding Workshops</h3>
         <p class="svc-card-desc">Play-based emotional learning sessions for children with parents. A non-scary, joyful
           approach to mental wellness.</p>
-        <a href="#book" class="svc-link">Learn More →</a>
+        <a href="#book" class="svc-link">Learn More </a>
         <div class="svc-card-bg-decor"></div>
       </div>
 
       <!-- Card 3: Art Therapy -->
       <div class="svc-card svc-card-3 fade-up fade-up-delay-2">
-        <span class="svc-icon" style="color:var(--purple);animation-delay:1s">🎨</span>
+        <span class="svc-icon" style="color:var(--purple);animation-delay:1s"></span>
         <h3 class="svc-card-title" style="color:var(--purple)">Art &amp; Expressive Therapy</h3>
         <p class="svc-card-desc">Process emotions through painting, collage, and storytelling in a safe, guided space.
         </p>
-        <a href="#book" class="svc-link" style="color:var(--purple)">Book Session →</a>
+        <a href="#book" class="svc-link" style="color:var(--purple)">Book Session </a>
         <div class="svc-card-bg-decor"></div>
       </div>
 
       <!-- Card 4: Dance Movement -->
       <div class="svc-card svc-card-4 fade-up fade-up-delay-1">
-        <span class="svc-icon" style="animation-delay:1.5s">💃</span>
+        <span class="svc-icon" style="animation-delay:1.5s"></span>
         <h3 class="svc-card-title" style="color:var(--lotus);filter:brightness(0.75)">Dance Movement Therapy</h3>
         <p class="svc-card-desc">Reconnect with your body, release tension, and find emotional flow through guided
           movement.</p>
-        <a href="#book" class="svc-link" style="color:var(--text-light)">Explore →</a>
+        <a href="#book" class="svc-link" style="color:var(--text-light)">Explore </a>
         <div class="svc-card-bg-decor"></div>
       </div>
 
       <!-- Card 5: Psychology Internship -->
       <div class="svc-card svc-card-5 fade-up fade-up-delay-2">
-        <span class="svc-icon" style="animation-delay:2s">🧠</span>
+        <span class="svc-icon" style="animation-delay:2s"></span>
         <h3 class="svc-card-title" style="color:var(--teal)">Psychology Internships</h3>
         <p class="svc-card-desc">Hands-on clinical hours in art, narrative, and dance therapy. Earn your MA/BA practical
           credits while doing meaningful work.</p>
-        <a href="#book" class="svc-link">Apply Now →</a>
+        <a href="#book" class="svc-link">Apply Now </a>
         <div class="svc-card-bg-decor"></div>
       </div>
     </div>
   </section>
 
-  <!-- ─── AREAS OF SUPPORT ─── -->
+  <!--  AREAS OF SUPPORT  -->
   <section id="support"
     style="background:linear-gradient(135deg,rgba(84,127,132,0.04),rgba(167,128,199,0.04));border-radius:40px;margin:0 2%;">
     <div class="section-eyebrow">Who We Help</div>
@@ -3137,7 +3137,7 @@
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:1rem;">
       <!-- Children & Teenagers -->
       <div class="svc-card svc-card-2 fade-up" style="border-top:4px solid var(--teal);">
-        <span class="svc-icon" style="font-size:2rem;">👦</span>
+        <span class="svc-icon" style="font-size:2rem;"></span>
         <h3 class="svc-card-title" style="color:var(--teal);font-size:1.25rem;">Children &amp; Teenagers</h3>
         <ul class="svc-features" style="margin-top:0.8rem;">
           <li style="color:var(--text-light);">Academic Stress &amp; Exam Anxiety</li>
@@ -3149,7 +3149,7 @@
 
       <!-- Young Adults -->
       <div class="svc-card svc-card-3 fade-up fade-up-delay-1" style="border-top:4px solid var(--purple);">
-        <span class="svc-icon" style="font-size:2rem;color:var(--purple);">🧑</span>
+        <span class="svc-icon" style="font-size:2rem;color:var(--purple);"></span>
         <h3 class="svc-card-title" style="color:var(--purple);font-size:1.25rem;">Young Adults</h3>
         <ul class="svc-features" style="margin-top:0.8rem;">
           <li style="color:var(--text-light);">Relationship Concerns &amp; Identity Issues</li>
@@ -3161,7 +3161,7 @@
 
       <!-- Adults -->
       <div class="svc-card svc-card-4 fade-up fade-up-delay-2" style="border-top:4px solid var(--lotus);">
-        <span class="svc-icon" style="font-size:2rem;">🧑‍💼</span>
+        <span class="svc-icon" style="font-size:2rem;">‍</span>
         <h3 class="svc-card-title" style="color:#E8721A;font-size:1.25rem;">Adults</h3>
         <ul class="svc-features" style="margin-top:0.8rem;">
           <li style="color:var(--text-light);">Stress Management &amp; Burnout</li>
@@ -3173,7 +3173,7 @@
     </div>
   </section>
 
-  <!-- ─── SUPPORT GROUPS ─── -->
+  <!--  SUPPORT GROUPS  -->
   <section id="groups">
     <div class="section-eyebrow">Community Care</div>
     <h2 class="section-title fade-up">Support Groups</h2>
@@ -3184,24 +3184,24 @@
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:2rem;">
       <div class="fade-up"
         style="background:var(--white);border-radius:20px;padding:24px 16px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:8px;">👪</div>
+        <div style="font-size:2rem;margin-bottom:8px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Parents</div>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:20px;padding:24px 16px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:8px;">💼</div>
+        <div style="font-size:2rem;margin-bottom:8px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Corporate
           Employees</div>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:20px;padding:24px 16px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:8px;">🎓</div>
+        <div style="font-size:2rem;margin-bottom:8px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">College
           Students</div>
       </div>
       <div class="fade-up fade-up-delay-3"
         style="background:var(--white);border-radius:20px;padding:24px 16px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:8px;">🌸</div>
+        <div style="font-size:2rem;margin-bottom:8px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Women</div>
       </div>
     </div>
@@ -3212,11 +3212,11 @@
         safe environment where you will be heard and heal."</p>
       <a href="#book"
         style="display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:var(--lotus);color:var(--text);padding:12px 28px;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:0.9rem;text-decoration:none;box-shadow:0 4px 16px rgba(244,197,134,0.4);">Join
-        a Group →</a>
+        a Group </a>
     </div>
   </section>
 
-  <!-- ─── WORKSHOPS ─── -->
+  <!--  WORKSHOPS  -->
   <section id="workshops"
     style="background:linear-gradient(135deg,rgba(167,128,199,0.05),rgba(244,197,134,0.08));border-radius:40px;margin:0 2%;">
     <div class="section-eyebrow">Heal Through Expression</div>
@@ -3242,84 +3242,84 @@
     <div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:16px;margin-bottom:2.5rem;">
       <div class="fade-up"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🎨</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Art &amp;
           Expressive Therapy</span>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">💃</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Dance Movement
           Therapy</span>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">📖</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Narrative
           Therapy</span>
       </div>
       <div class="fade-up"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🎵</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Music
           Therapy</span>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">💡</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Emotional
           Development</span>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🪞</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Self
           Concept</span>
       </div>
       <div class="fade-up"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🧒</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Parent-Toddler
           Programmes</span>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">📚</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Psycho
           Education</span>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🎉</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Therapeutic
           Fun Activities</span>
       </div>
       <div class="fade-up"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🤝</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Bonding &amp;
           Communication</span>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">🧑‍🏫</span>
+        <span style="font-size:1.6rem;">‍</span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Parent
           Coaching</span>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:18px;padding:20px;display:flex;align-items:center;gap:12px;border:1px solid rgba(163,155,178,0.12);box-shadow:0 2px 12px rgba(0,0,0,0.04);">
-        <span style="font-size:1.6rem;">💑</span>
+        <span style="font-size:1.6rem;"></span>
         <span style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.9rem;color:var(--text);">Relationship
           &amp; Family Therapy</span>
       </div>
     </div>
 
     <div class="fade-up" style="text-align:center;">
-      <a href="#book" class="btn-primary" style="display:inline-flex;">🎨 Book a Workshop</a>
+      <a href="#book" class="btn-primary" style="display:inline-flex;"> Book a Workshop</a>
     </div>
   </section>
 
-  <!-- ─── COLLABORATIVE WORK ─── -->
+  <!--  COLLABORATIVE WORK  -->
   <section id="collaborate">
     <div class="section-eyebrow">We Partner With</div>
     <h2 class="section-title fade-up">Collaborative Work</h2>
@@ -3329,24 +3329,24 @@
     <div class="collab-partners-4" style="display:grid;grid-template-columns:repeat(4, 1fr);gap:16px;margin-bottom:16px;">
       <div class="fade-up"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🏫</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Schools &amp;
           Preschools</div>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🎓</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Colleges</div>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🏢</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Corporate
           Companies</div>
       </div>
       <div class="fade-up fade-up-delay-3"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">👨‍👩‍👧‍👦</div>
+        <div style="font-size:2rem;margin-bottom:10px;">‍‍‍</div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Parent
           Communities</div>
       </div>
@@ -3354,23 +3354,23 @@
     <div class="collab-partners-3" style="display:grid;grid-template-columns:repeat(3, 1fr);gap:16px;max-width:75%;margin:0 auto 2.5rem;">
       <div class="fade-up"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🫂</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Support Groups</div>
       </div>
       <div class="fade-up fade-up-delay-1"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🏋️</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Fitness Clubs</div>
       </div>
       <div class="fade-up fade-up-delay-2"
         style="background:var(--white);border-radius:20px;padding:24px 20px;text-align:center;border:1px solid rgba(163,155,178,0.15);box-shadow:0 4px 20px rgba(0,0,0,0.04);">
-        <div style="font-size:2rem;margin-bottom:10px;">🏡</div>
+        <div style="font-size:2rem;margin-bottom:10px;"></div>
         <div style="font-family:'Outfit',sans-serif;font-weight:700;color:var(--teal);font-size:0.95rem;">Old Age Homes</div>
       </div>
 
   </section>
 
-  <!-- ─── HOW IT WORKS ─── -->
+  <!--  HOW IT WORKS  -->
   <section id="process" class="process">
     <div class="section-eyebrow">Simple Path</div>
     <h2 class="section-title fade-up">How to Book Your Counseling or Therapy Session</h2>
@@ -3406,7 +3406,7 @@
     </div>
   </section>
 
-  <!-- ─── GALLERY ─── -->
+  <!--  GALLERY  -->
   <section class="gallery" id="gallery">
     <div style="padding:0 5%;margin-bottom:2.5rem;">
       <div class="section-eyebrow">Real Moments</div>
@@ -3417,82 +3417,82 @@
     <div class="gallery-track-wrap">
       <div class="gallery-track" id="galleryTrack">
         <div class="gallery-item gi-1">
-          <div class="gi-inner">🖐️<div class="gi-label">Handprint Art — Kothrud Workshop</div>
+          <div class="gi-inner"><div class="gi-label">Handprint Art — Kothrud Workshop</div>
           </div>
         </div>
         <div class="gallery-item gi-2">
-          <div class="gi-inner">🎭<div class="gi-label">Drama Therapy Circle — Baner</div>
+          <div class="gi-inner"><div class="gi-label">Drama Therapy Circle — Baner</div>
           </div>
         </div>
         <div class="gallery-item gi-3">
-          <div class="gi-inner">🌸<div class="gi-label">Parent-Child Bonding Session</div>
+          <div class="gi-inner"><div class="gi-label">Parent-Child Bonding Session</div>
           </div>
         </div>
         <div class="gallery-item gi-4">
-          <div class="gi-inner">🎨<div class="gi-label">Expressive Painting — Pashan</div>
+          <div class="gi-inner"><div class="gi-label">Expressive Painting — Pashan</div>
           </div>
         </div>
         <div class="gallery-item gi-5">
-          <div class="gi-inner">💃<div class="gi-label">Movement Therapy Session</div>
+          <div class="gi-inner"><div class="gi-label">Movement Therapy Session</div>
           </div>
         </div>
         <div class="gallery-item gi-6">
-          <div class="gi-inner">📚<div class="gi-label">Intern Cohort — Fergusson Alums</div>
+          <div class="gi-inner"><div class="gi-label">Intern Cohort — Fergusson Alums</div>
           </div>
         </div>
         <div class="gallery-item gi-7">
-          <div class="gi-inner">🤝<div class="gi-label">Project Parvarish Collaboration</div>
+          <div class="gi-inner"><div class="gi-label">Project Parvarish Collaboration</div>
           </div>
         </div>
         <div class="gallery-item gi-8">
-          <div class="gi-inner">🧡<div class="gi-label">Children's Emotion Workshop</div>
+          <div class="gi-inner"><div class="gi-label">Children's Emotion Workshop</div>
           </div>
         </div>
         <!-- Duplicate for seamless loop -->
         <div class="gallery-item gi-1">
-          <div class="gi-inner">🖐️<div class="gi-label">Handprint Art — Kothrud Workshop</div>
+          <div class="gi-inner"><div class="gi-label">Handprint Art — Kothrud Workshop</div>
           </div>
         </div>
         <div class="gallery-item gi-2">
-          <div class="gi-inner">🎭<div class="gi-label">Drama Therapy Circle — Baner</div>
+          <div class="gi-inner"><div class="gi-label">Drama Therapy Circle — Baner</div>
           </div>
         </div>
         <div class="gallery-item gi-3">
-          <div class="gi-inner">🌸<div class="gi-label">Parent-Child Bonding Session</div>
+          <div class="gi-inner"><div class="gi-label">Parent-Child Bonding Session</div>
           </div>
         </div>
         <div class="gallery-item gi-4">
-          <div class="gi-inner">🎨<div class="gi-label">Expressive Painting — Pashan</div>
+          <div class="gi-inner"><div class="gi-label">Expressive Painting — Pashan</div>
           </div>
         </div>
         <div class="gallery-item gi-5">
-          <div class="gi-inner">💃<div class="gi-label">Movement Therapy Session</div>
+          <div class="gi-inner"><div class="gi-label">Movement Therapy Session</div>
           </div>
         </div>
         <div class="gallery-item gi-6">
-          <div class="gi-inner">📚<div class="gi-label">Intern Cohort — Fergusson Alums</div>
+          <div class="gi-inner"><div class="gi-label">Intern Cohort — Fergusson Alums</div>
           </div>
         </div>
         <div class="gallery-item gi-7">
-          <div class="gi-inner">🤝<div class="gi-label">Project Parvarish Collaboration</div>
+          <div class="gi-inner"><div class="gi-label">Project Parvarish Collaboration</div>
           </div>
         </div>
         <div class="gallery-item gi-8">
-          <div class="gi-inner">🧡<div class="gi-label">Children's Emotion Workshop</div>
+          <div class="gi-inner"><div class="gi-label">Children's Emotion Workshop</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ─── TESTIMONIALS ─── -->
+  <!--  TESTIMONIALS  -->
   <section id="testimonials" class="testimonials">
     <div class="section-eyebrow">Stories of Healing</div>
     <h2 class="section-title fade-up">What Pune Families<br>Are Saying</h2>
 
     <div class="testimonials-grid">
       <div class="testimonial-card fade-up">
-        <div class="stars">★★★★★</div>
+        <div class="stars"></div>
         <p class="testimonial-text">My daughter used to shut down whenever I asked about her feelings. After three
           parent-child workshops, she now uses art to tell me how she's doing. It's truly magical.</p>
         <div class="testimonial-author">
@@ -3505,7 +3505,7 @@
         </div>
       </div>
       <div class="testimonial-card fade-up fade-up-delay-1">
-        <div class="stars">★★★★★</div>
+        <div class="stars"></div>
         <p class="testimonial-text">As a final year MA Psychology student, this internship gave me what no textbook ever
           could — real, supervised experience with actual clients. The certificate added genuine weight to my CV.</p>
         <div class="testimonial-author">
@@ -3518,7 +3518,7 @@
         </div>
       </div>
       <div class="testimonial-card fade-up fade-up-delay-2">
-        <div class="stars">★★★★★</div>
+        <div class="stars"></div>
         <p class="testimonial-text">I was skeptical about "art therapy" at first — it felt too gentle. But the session
           completely shifted something inside me. The founders are genuinely brilliant at creating safe spaces.</p>
         <div class="testimonial-author">
@@ -3535,7 +3535,7 @@
 
 
 
-  <!-- ─── FOUNDERS ─── -->
+  <!--  FOUNDERS  -->
   <section id="founders">
     <div class="section-eyebrow">Meet the Team</div>
     <h2 class="section-title fade-up">The Healing Hands<br>Behind Anubhūti</h2>
@@ -3547,7 +3547,7 @@
       <div class="founder-card fade-up">
         <div class="founder-avatar-wrap">
           <div class="founder-avatar" style="background:linear-gradient(135deg,rgba(84,127,132,0.12),rgba(84,127,132,0.05))">
-            <span style="font-size:2.8rem">👩‍💼</span>
+            <span style="font-size:2.8rem">‍</span>
           </div>
         </div>
         <div class="founder-name">Darshani Darwatkar</div>
@@ -3568,9 +3568,9 @@
           <span class="cred-tag" style="background:var(--lotus-light);color:#b07a30;">Online &amp; Offline · 50 min</span>
         </div>
         <div class="founder-socials">
-          <a href="#" class="social-btn" aria-label="Instagram">📸</a>
-          <a href="#" class="social-btn" aria-label="LinkedIn">💼</a>
-          <a href="https://wa.me/918766709104" class="social-btn" aria-label="WhatsApp">💬</a>
+          <a href="#" class="social-btn" aria-label="Instagram"></a>
+          <a href="#" class="social-btn" aria-label="LinkedIn"></a>
+          <a href="https://wa.me/918766709104" class="social-btn" aria-label="WhatsApp"></a>
         </div>
       </div>
 
@@ -3578,7 +3578,7 @@
       <div class="founder-card fade-up fade-up-delay-2">
         <div class="founder-avatar-wrap" style="border-color:var(--purple)">
           <div class="founder-avatar" style="background:linear-gradient(135deg,rgba(167,128,199,0.12),rgba(167,128,199,0.05))">
-            <span style="font-size:2.8rem">👩‍🏫</span>
+            <span style="font-size:2.8rem">‍</span>
           </div>
         </div>
         <div class="founder-name">Dhanashri Pravin Patil</div>
@@ -3599,9 +3599,9 @@
           <span class="cred-tag" style="background:var(--lotus-light);color:#b07a30;">Online &amp; Offline</span>
         </div>
         <div class="founder-socials">
-          <a href="#" class="social-btn" aria-label="Instagram">📸</a>
-          <a href="#" class="social-btn" aria-label="LinkedIn">💼</a>
-          <a href="https://wa.me/918766709104" class="social-btn" aria-label="WhatsApp">💬</a>
+          <a href="#" class="social-btn" aria-label="Instagram"></a>
+          <a href="#" class="social-btn" aria-label="LinkedIn"></a>
+          <a href="https://wa.me/918766709104" class="social-btn" aria-label="WhatsApp"></a>
         </div>
       </div>
 
@@ -3613,14 +3613,15 @@
       <path d="M0,0 C360,48 1080,48 1440,0 L1440,48 L0,48 Z" fill="#547F84" />
     </svg>
   </div>
-  <!-- ─── CTA BAND ─── -->
-  <!-- ─── BOOKING FORM ─── -->
+  <!--  CTA BAND  -->
+  <!--  BOOKING FORM  -->
   <section id="booking-form" style="background:linear-gradient(135deg,rgba(84,127,132,0.04),rgba(167,128,199,0.06));border-radius:40px;margin:0 2%;">
     <div class="section-eyebrow" style="justify-content:center;">Book a Session</div>
     <h2 class="section-title fade-up" style="text-align:center;">Start Your Journey Today</h2>
     <p class="section-desc fade-up fade-up-delay-1" style="text-align:center;margin-left:auto;margin-right:auto;">Fill in your details and we'll get back to you within 24 hours to confirm your session.</p>
     <div class="fade-up" style="max-width:660px;margin:0 auto;">
       <div id="bookingForm" class="booking-card" style="background:var(--white);border-radius:28px;padding:40px;border:1px solid rgba(163,155,178,0.15);box-shadow:0 8px 40px rgba(0,0,0,0.07);">
+        <!-- Row 1: Name + Phone -->
         <div class="booking-form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;">
           <div>
             <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Your Name *</label>
@@ -3631,42 +3632,56 @@
             <input id="bPhone" type="tel" placeholder="+91 90110 62197" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
           </div>
         </div>
-        <div style="margin-bottom:18px;">
-          <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Email Address</label>
-          <input id="bEmail" type="email" placeholder="yourname@email.com" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
-        </div>
+        <!-- Row 2: Age + Gender -->
         <div class="booking-form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;">
           <div>
-            <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Service Interested In *</label>
-            <select id="bService" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
-              <option value="" disabled selected>Select a service…</option>
-              <option>Individual Therapy</option>
-              <option>Child / Teen Therapy</option>
-              <option>Workshop</option>
-              <option>Support Group</option>
-              <option>Internship Programme</option>
-              <option>Corporate / School Partnership</option>
-              <option>Other</option>
-            </select>
+            <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Age *</label>
+            <input id="bAge" type="number" min="1" max="120" placeholder="e.g. 28" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
           </div>
           <div>
-            <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Preferred Time</label>
-            <select id="bTime" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
-              <option value="" disabled selected>Anytime</option>
-              <option>Morning (9am – 12pm)</option>
-              <option>Afternoon (12pm – 4pm)</option>
-              <option>Evening (4pm – 7pm)</option>
+            <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Gender *</label>
+            <select id="bGender" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+              <option value="" disabled selected>Select gender…</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Non-binary</option>
+              <option>Prefer not to say</option>
             </select>
           </div>
         </div>
+        <!-- Row 3: Email (compulsory) -->
+        <div style="margin-bottom:18px;">
+          <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Email Address *</label>
+          <input id="bEmail" type="email" placeholder="yourname@email.com" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+        </div>
+        <!-- Row 4: Service (full width) -->
+        <div style="margin-bottom:18px;">
+          <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Service Interested In *</label>
+          <select id="bService" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;appearance:none;cursor:pointer;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'">
+            <option value="" disabled selected>Select a service…</option>
+            <option>Individual Therapy</option>
+            <option>Child / Teen Therapy</option>
+            <option>Workshop</option>
+            <option>Support Group</option>
+            <option>Internship Programme</option>
+            <option>Corporate / School Partnership</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <!-- Row 5: Problem / concern -->
+        <div style="margin-bottom:18px;">
+          <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Please let us know what problem you are facing or struggling with currently *</label>
+          <textarea id="bProblem" rows="3" placeholder="Share what's been on your mind — we're here to listen…" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;resize:vertical;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'"></textarea>
+        </div>
+        <!-- Row 6: Additional info -->
         <div style="margin-bottom:24px;">
           <label style="font-family:'Outfit',sans-serif;font-weight:600;font-size:0.85rem;color:var(--text);display:block;margin-bottom:6px;">Tell us a little about what you're looking for</label>
           <textarea id="bMessage" rows="3" placeholder="Feel free to share as much or as little as you like…" style="width:100%;padding:12px 16px;border:1.5px solid rgba(163,155,178,0.3);border-radius:12px;font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--text);background:var(--bg);outline:none;box-sizing:border-box;resize:vertical;transition:border-color 0.2s;" onfocus="this.style.borderColor='var(--teal)'" onblur="this.style.borderColor='rgba(163,155,178,0.3)'"></textarea>
         </div>
         <button onclick="handleBookingSubmit(this)" style="width:100%;padding:15px;background:linear-gradient(135deg,var(--teal),#3d6b70);color:var(--white);border:none;border-radius:50px;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;box-shadow:0 4px 20px rgba(84,127,132,0.35);" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(84,127,132,0.45)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(84,127,132,0.35)'">
-          💬 Send Booking Request
+           Send Booking Request
         </button>
-        <p style="text-align:center;font-size:0.82rem;color:var(--text-light);margin-top:14px;">We'll respond within 24 hours · <a href="https://wa.me/918766709104" target="_blank" style="color:var(--teal);font-weight:600;text-decoration:none;">Or DM us on WhatsApp →</a></p>
+        <p style="text-align:center;font-size:0.82rem;color:var(--text-light);margin-top:14px;">We'll respond within 24 hours · <a href="https://wa.me/918766709104" target="_blank" style="color:var(--teal);font-weight:600;text-decoration:none;">Or DM us on WhatsApp </a></p>
       </div>
     </div>
   </section>
@@ -3677,16 +3692,18 @@
 
       const name    = document.getElementById('bName').value.trim();
       const phone   = document.getElementById('bPhone').value.trim();
+      const age     = document.getElementById('bAge').value.trim();
+      const gender  = document.getElementById('bGender').value;
       const email   = document.getElementById('bEmail').value.trim();
       const service = document.getElementById('bService').value;
-      const time    = document.getElementById('bTime').value;
+      const problem = document.getElementById('bProblem').value.trim();
       const message = document.getElementById('bMessage').value.trim();
 
-      if (!name || !phone || !service) {
-        btn.textContent = '⚠️ Please fill Name, Phone & Service';
+      if (!name || !phone || !age || !gender || !email || !service || !problem) {
+        btn.textContent = ' Please fill all required fields';
         btn.style.background = 'linear-gradient(135deg,#e87a3d,#d4622a)';
         setTimeout(() => {
-          btn.textContent = '💬 Send Booking Request';
+          btn.textContent = ' Send Booking Request';
           btn.style.background = 'linear-gradient(135deg,var(--teal),#3d6b70)';
         }, 2500);
         return;
@@ -3694,18 +3711,15 @@
 
       btn.disabled = true;
 
-      let text = `Hi! I'd like to book a session.\n\nName: ${name}\nPhone: ${phone}`;
-      if (email)   text += `\nEmail: ${email}`;
-      text += `\nService: ${service}`;
-      if (time && time !== '')    text += `\nPreferred Time: ${time}`;
-      if (message) text += `\n\nAbout me: ${message}`;
+      let text = `Hi! I'd like to book a session.\n\nName: ${name}\nPhone: ${phone}\nAge: ${age}\nGender: ${gender}\nEmail: ${email}\nService: ${service}\n\nCurrent problem / struggle:\n${problem}`;
+      if (message) text += `\n\nAdditional info: ${message}`;
 
       window.open(`https://wa.me/918766709104?text=${encodeURIComponent(text)}`, '_blank');
-      btn.textContent = '✅ Sent! Opening WhatsApp…';
+      btn.textContent = ' Sent! Opening WhatsApp…';
       btn.style.background = 'linear-gradient(135deg,#4caf82,#2e8b57)';
 
       setTimeout(() => {
-        btn.textContent = '💬 Send Booking Request';
+        btn.textContent = ' Send Booking Request';
         btn.style.background = 'linear-gradient(135deg,var(--teal),#3d6b70)';
         btn.disabled = false;
       }, 5000);
@@ -3721,8 +3735,8 @@
       experience, or someone ready to explore — we're here.</p>
     <div class="cta-band-btns">
       <a href="https://wa.me/918766709104?text=Hi%20Darshani%20%26%20Dhanashri%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
-        class="btn-white" target="_blank">💬 DM on WhatsApp</a>
-      <a href="#services" class="btn-outline-white">View All Services →</a>
+        class="btn-white" target="_blank"> DM on WhatsApp</a>
+      <a href="#services" class="btn-outline-white">View All Services </a>
     </div>
   </section>
 
@@ -3731,7 +3745,7 @@
       <path d="M0,48 C360,0 1080,0 1440,48 L1440,48 L0,48 Z" fill="#F9F7F7" />
     </svg>
   </div>
-  <!-- ─── FOOTER ─── -->
+  <!--  FOOTER  -->
   <footer>
     <div class="footer-top">
       <div class="footer-brand">
@@ -3747,11 +3761,10 @@
         <p class="footer-desc">Where healing becomes an experience. Research-backed mental well-being through art,
           movement, and play — for Pune's families and future psychologists.</p>
         <div class="footer-contact">
-          <div class="footer-contact-item"><span class="fci-icon">📍</span> Baner, Pune, Maharashtra</div>
-          <div class="footer-contact-item"><span class="fci-icon">✉️</span> <a href="/cdn-cgi/l/email-protection"
-              class="__cf_email__"
-              data-cfemail="96fef3fafaf9d6f7f8e3f4fee3e2fffef3f7fafff8f1b8fff8">[email&#160;protected]</a></div>
-          <div class="footer-contact-item"><span class="fci-icon">📱</span> +91 87667 09104</div>
+          <div class="footer-contact-item"><span class="fci-icon"></span> <a href="https://anubhutihealingspace.in" target="_blank" rel="noopener noreferrer">anubhutihealingspace.in</a></div>
+          <div class="footer-contact-item"><span class="fci-icon"></span> Anubhuti Healing Space, Sankala Arcade, Shop no.7, opposite of Gandhi Khadi Bhandar, Nal Stop, Erandwane, Pune - 411004, Maharashtra</div>
+          <div class="footer-contact-item"><span class="fci-icon"></span> <a href="mailto:anubhutihealingspace@gmail.com">anubhutihealingspace@gmail.com</a></div>
+          <div class="footer-contact-item"><span class="fci-icon"></span> +91 87667 09104</div>
         </div>
       </div>
 
@@ -3780,35 +3793,34 @@
       <div>
         <div class="footer-col-title">Pune Local</div>
         <div class="footer-map">
-          <span style="font-size:2rem">🗺️</span>
-          <span class="footer-map-text">Serving Baner · Kothrud · Pashan</span>
-          <span class="footer-map-loc">📍 Pune, Maharashtra</span>
+          <span style="font-size:2rem"></span>
+          <span class="footer-map-text">Erandwane · Nal Stop · Pune</span>
+          <span class="footer-map-loc"> Pune - 411004, Maharashtra</span>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>© 2024 Anubhūti Healing Space. All rights reserved. Designed with 💜 for Pune.</p>
-      <div class="pune-badge">📍 Proudly Pune Local</div>
+      <p>© 2024 Anubhūti Healing Space. All rights reserved. Designed with  for Pune.</p>
+      <div class="pune-badge"> Proudly Pune Local</div>
     </div>
   </footer>
 
-  <!-- ─── WHATSAPP FLOAT ─── -->
+  <!--  WHATSAPP FLOAT  -->
   <div class="wa-float">
-    <div class="wa-tooltip">Ask Darshani & Dhanashri 💬</div>
+    <div class="wa-tooltip">Ask Darshani & Dhanashri </div>
     <a class="wa-btn" href="https://wa.me/918766709104?text=Hi!%20I%20found%20you%20through%20your%20website."
-      target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
+      target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"></a>
   </div>
 
   <!-- Mobile Sticky CTA -->
   <div class="mobile-sticky-cta">
-    <span>🎓 Internship Open</span>
+    <span> Internship Open</span>
     <a href="#book">Enroll Now</a>
   </div>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script>
-    /* ─── CURSOR ─── */
+    /*  CURSOR  */
     const dot = document.getElementById('cursorDot');
     const ring = document.getElementById('cursorRing');
     if (dot && ring) {
@@ -3826,13 +3838,13 @@
       });
     }
 
-    /* ─── NAV SCROLL ─── */
+    /*  NAV SCROLL  */
     const nav = document.getElementById('mainNav');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('scrolled', window.scrollY > 50);
     });
 
-    /* ─── HAMBURGER ─── */
+    /*  HAMBURGER  */
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.getElementById('navLinks');
     let scrollY = 0;
@@ -3865,7 +3877,7 @@
     });
     navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
 
-    /* ─── INTERSECTION OBSERVER (fade-up) ─── */
+    /*  INTERSECTION OBSERVER (fade-up)  */
     const fadeEls = document.querySelectorAll('.fade-up');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -3877,7 +3889,7 @@
     }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
     fadeEls.forEach(el => observer.observe(el));
 
-    /* ─── COUNTER ANIMATION ─── */
+    /*  COUNTER ANIMATION  */
     function animateCounter(el, target, suffix) {
       let start = 0;
       const duration = 1800;
@@ -3901,7 +3913,7 @@
     }, { threshold: 0.5 });
     if (statNums[0]) heroObs.observe(statNums[0].closest('.hero-stats'));
 
-    /* ─── SMOOTH SCROLL ─── */
+    /*  SMOOTH SCROLL  */
     document.querySelectorAll('a[href^="#"]').forEach(a => {
       a.addEventListener('click', e => {
         const target = document.querySelector(a.getAttribute('href'));
@@ -3912,7 +3924,7 @@
       });
     });
 
-    /* ─── GALLERY PAUSE ON TOUCH ─── */
+    /*  GALLERY PAUSE ON TOUCH  */
     const track = document.getElementById('galleryTrack');
     if (track) {
       track.addEventListener('touchstart', () => track.style.animationPlayState = 'paused');
@@ -3921,7 +3933,7 @@
   </script>
 
   <script>
-    /* ── INTRO PARTICLES ── */
+    /*  INTRO PARTICLES  */
     (function () {
       const container = document.getElementById('introParticles');
       if (!container) return;
@@ -3942,7 +3954,7 @@
       }
     })();
 
-    /* ── DISMISS INTRO ── */
+    /*  DISMISS INTRO  */
     window.addEventListener('load', function () {
       setTimeout(function () {
         const overlay = document.getElementById('intro-overlay');
@@ -3954,7 +3966,7 @@
     // Freeze scroll during intro
     document.body.style.overflow = 'hidden';
 
-    /* ── SCROLL PROGRESS ── */
+    /*  SCROLL PROGRESS  */
     window.addEventListener('scroll', function () {
       const el = document.getElementById('scroll-progress');
       if (!el) return;
@@ -3963,7 +3975,7 @@
       el.style.width = (scrollTop / docHeight * 100) + '%';
     });
 
-    /* ── 3D TILT on cards ── */
+    /*  3D TILT on cards  */
     document.querySelectorAll('.svc-card, .testimonial-card, .founder-card').forEach(card => {
       card.addEventListener('mousemove', function (e) {
         const rect = card.getBoundingClientRect();
@@ -3980,7 +3992,7 @@
       });
     });
 
-    /* ── STAGGER CHILDREN on bento grid ── */
+    /*  STAGGER CHILDREN on bento grid  */
     document.querySelectorAll('.svc-card').forEach((el, i) => {
       el.classList.add('stagger-child');
       el.style.transitionDelay = (i * 0.08) + 's';
@@ -3990,7 +4002,7 @@
     }, { threshold: 0.1 });
     document.querySelectorAll('.stagger-child').forEach(el => staggerObs.observe(el));
 
-    /* ── MAGNETIC BUTTONS ── */
+    /*  MAGNETIC BUTTONS  */
     document.querySelectorAll('.btn-primary, .btn-outline, .nav-cta, .btn-white').forEach(btn => {
       btn.addEventListener('mousemove', function (e) {
         const rect = btn.getBoundingClientRect();
@@ -4003,7 +4015,7 @@
       });
     });
 
-    /* ── SECTION TITLE REVEAL ── */
+    /*  SECTION TITLE REVEAL  */
     const titleObs = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) {
